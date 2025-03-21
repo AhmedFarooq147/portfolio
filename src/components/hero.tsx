@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Typewriter from 'typewriter-effect';
+import logo from '../../public/img/Screenshot 2025-03-19 014200.png'
 
 export function Hero() {
     return (
@@ -37,7 +38,7 @@ export function Hero() {
                         <Image
                             className="object-cover h-[400px] w-[300px] object-center rounded-3xl"
                             alt="hero"
-                            src={require("../../public/img/Screenshot 2025-03-19 014200.png")}
+                            src={logo}
                         />
                     </div>
                 </div>
