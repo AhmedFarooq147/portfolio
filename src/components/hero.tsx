@@ -24,7 +24,7 @@ export function Hero() {
                         </span>
                         <div className="w-[100px] h-[3px] bg-blue-700 "></div>
                         <p className="mb-8 leading-relaxed">
-                        I am a passionate Web Developer, Sanity expert, and UI/UX Designer with a keen eye for creating intuitive and engaging digital experiences. With expertise in modern web technologies, I specialize in building scalable, high-performance websites and applications. Whether it's front-end magic, back-end efficiency, or CMS mastery, I ensure seamless user interactions with clean and modern designs.
+                        I am a passionate Web Developer, Sanity expert, and UI/UX Designer with a keen eye for creating intuitive and engaging digital experiences. With expertise in modern web technologies, I specialize in building scalable, high-performance websites and applications. Whether it&apos;s front-end magic, back-end efficiency, or CMS mastery, I ensure seamless user interactions with clean and modern designs.
                         </p>
                         <div className="flex justify-center">
                         <Link href={"#Contact"}>
