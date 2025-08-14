@@ -5,6 +5,7 @@ import { Hero } from "@/components/hero";
 import Navbar from "@/components/navbar";
 import Project from "@/components/project";
 import { Skills } from "@/components/skills";
+import Whatsapp from "@/components/whatsapp";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Contact/>
       <About/>
       <Footer/>
+      <Whatsapp/>
       
     </div>
   );
