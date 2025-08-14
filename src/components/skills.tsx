@@ -1,5 +1,14 @@
 import React from 'react'
 import { AiOutlineCheckSquare } from "react-icons/ai";
+import { FaPython } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiNextdotjs } from "react-icons/si";
+import { SiSanity } from "react-icons/si";
+import { SiStreamlit } from "react-icons/si";
+import { SiOpenai } from "react-icons/si";
 
 export const Skills = () => {
   return (
@@ -20,7 +29,7 @@ export const Skills = () => {
         <div className="flex rounded-lg h-full  p-8 flex-col">
           <div className="flex items-center mb-3">
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-             <AiOutlineCheckSquare/>
+             <FaHtml5/>
             </div>
             <h2 className="text-gray-200 text-lg title-font font-medium">
               HTML
@@ -39,7 +48,7 @@ export const Skills = () => {
         <div className="flex rounded-lg h-full  p-8 flex-col">
           <div className="flex items-center mb-3">
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-              <AiOutlineCheckSquare/>
+              <IoLogoCss3/>
             </div>
             <h2 className="text-gray-200 text-lg title-font font-medium">
               CSS
@@ -58,7 +67,7 @@ export const Skills = () => {
         <div className="flex rounded-lg h-full  p-8 flex-col">
           <div className="flex items-center mb-3">
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-              <AiOutlineCheckSquare/>
+              <IoLogoJavascript/>
             </div>
             <h2 className="text-gray-200 text-lg title-font font-medium">
               JavaScript/TypeScript
@@ -77,7 +86,7 @@ export const Skills = () => {
         <div className="flex rounded-lg h-full  p-8 flex-col">
           <div className="flex items-center mb-3">
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-              <AiOutlineCheckSquare/>
+              <RiTailwindCssFill/>
             </div>
             <h2 className="text-gray-200 text-lg title-font font-medium">
               Tailwind-Css
@@ -96,7 +105,7 @@ export const Skills = () => {
         <div className="flex rounded-lg h-full  p-8 flex-col">
           <div className="flex items-center mb-3">
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-              <AiOutlineCheckSquare/>
+              <SiNextdotjs/>
             </div>
             <h2 className="text-gray-200 text-lg title-font font-medium">
               NextJS
@@ -115,10 +124,10 @@ export const Skills = () => {
         <div className="flex rounded-lg h-full  p-8 flex-col">
           <div className="flex items-center mb-3">
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-              <AiOutlineCheckSquare/>
+              <SiSanity/>
             </div>
             <h2 className="text-gray-200 text-lg title-font font-medium">
-              Sanity
+              Sanity CMS
             </h2>
           </div>
           <div className="flex-grow">
@@ -126,6 +135,82 @@ export const Skills = () => {
             <div className='absolute h-1 w-[90%] bg-blue-500'></div>
            </div>
            <p className='text-right text-gray-200'>90%</p>
+            
+          </div>
+        </div>
+      </div>
+      <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full  p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <SiStreamlit/>
+            </div>
+            <h2 className="text-gray-200 text-lg title-font font-medium">
+              Streamlit
+            </h2>
+          </div>
+          <div className="flex-grow">
+           <div className='relative h-1 w-100% bg-gray-300 rounded-xl '>
+            <div className='absolute h-1 w-[80%] bg-blue-500'></div>
+           </div>
+           <p className='text-right text-gray-200'>80%</p>
+            
+          </div>
+        </div>
+      </div>
+      <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full  p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <FaPython/>
+            </div>
+            <h2 className="text-gray-200 text-lg title-font font-medium">
+              Python
+            </h2>
+          </div>
+          <div className="flex-grow">
+           <div className='relative h-1 w-100% bg-gray-300 rounded-xl '>
+            <div className='absolute h-1 w-[75%] bg-blue-500'></div>
+           </div>
+           <p className='text-right text-gray-200'>75%</p>
+            
+          </div>
+        </div>
+      </div>
+      <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full  p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <AiOutlineCheckSquare/>
+            </div>
+            <h2 className="text-gray-200 text-lg title-font font-medium">
+              Chainlit
+            </h2>
+          </div>
+          <div className="flex-grow">
+           <div className='relative h-1 w-100% bg-gray-300 rounded-xl '>
+            <div className='absolute h-1 w-[70%] bg-blue-500'></div>
+           </div>
+           <p className='text-right text-gray-200'>70%</p>
+            
+          </div>
+        </div>
+      </div>
+      <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full  p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <SiOpenai/>
+            </div>
+            <h2 className="text-gray-200 text-lg title-font font-medium">
+              Open AI Agent SDK
+            </h2>
+          </div>
+          <div className="flex-grow">
+           <div className='relative h-1 w-100% bg-gray-300 rounded-xl '>
+            <div className='absolute h-1 w-[80%] bg-blue-500'></div>
+           </div>
+           <p className='text-right text-gray-200'>80%</p>
             
           </div>
         </div>
